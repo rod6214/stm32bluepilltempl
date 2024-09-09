@@ -1,0 +1,12 @@
+- use this command in MSYS2 to run openocd with stlink v2
+ openocd -f interface/stlink-v2.cfg -c "transport select hla_swd" -f target/stm32f1x.cfg
+
+- create a profile from preferences
+- install vs code
+- install: cortex-debug, cmake tools, c++ microsoft, linkerScript, arm assembly dan-c-underwood, GNU linker map files
+- Download arm toolchain and setup paths
+- Configure cmake tool from its options, path to compiler, gdb, etc.
+- open a terminal and execute init.bat, then open up vs code using command line
+
+
+maybe you will need to build and install openocd using either MSYS2 in windows or bash on unix like systems

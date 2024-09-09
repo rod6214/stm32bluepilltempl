@@ -1,0 +1,2 @@
+@echo off
+set PATH=%PATH%;C:\Develop\CursoArm\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin;C:\Develop\CursoArm\make-3.81-bin\bin
